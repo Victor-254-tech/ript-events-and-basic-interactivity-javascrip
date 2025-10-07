@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Interactive Page 🚀</h1>
+    <button id="themeToggle">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Counter Section -->
+    <section id="counterSection">
+      <h2>👍 Like Counter</h2>
+      <p>Likes: <span id="likeCount">0</span></p>
+      <button id="likeBtn">Like ❤️</button>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faqSection">
+      <h2>❓ Frequently Asked Questions</h2>
+      <div class="faq">
+        <h3 class="faq-question">Which are the most relevant books for an aspiring software engineer?</h3>
+        <p class="faq-answer">Some great books include "Clean Code" by Robert C. Martin, "The Pragmatic Programmer" by Andrew Hunt and David Thomas, and "Design Patterns" by Erich Gamma et al.</p>
+</p>
+      </div>
+      <div class="faq">
+        <h3 class="faq-question">What is good about Power Learn Project?</h3>
+        <p class="faq-answer">Power Learn Project (PLP) is more than just a coding program — it’s a movement empowering young Africans to become world-class software developers. 🌍💻
+
+Through free, high-quality training in programming, web development, and entrepreneurship, PLP gives learners practical skills that open doors to real opportunities. What makes PLP truly special is its focus on community: learners support one another, collaborate on projects, and grow together as problem-solvers and innovators. 🤝✨
+
+With mentorship, hands-on projects, and access to global networks, PLP isn’t just teaching tech — it’s building Africa’s next generation of tech leaders. 🚀</p>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="formSection">
+      <h2>📩 Contact Form</h2>
+      <form id="contactForm">
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+
+        <label>Email:</label>
+        <input type="text" id="email" placeholder="Enter your email"><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Enter a strong password"><br>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
